@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case World | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="brand-name">
+            Case World
+        </div>
+            <ul class="menu-left">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <form action="/search" method="GET" class="search-form">
+            <input type="text" name="query" placeholder="Search...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <div class="navbar-icons">
+            <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1 class="hero-heading">Case World</h1>
+            <p class="hero-paragraph">The best way to keep your phone stylish and safe!</p>
+            <a href="products.html" class="btn">Start Shopping</a>
+        </div>
+    </section>
+    <section class="newsletter-section">
+        <input type="checkbox" id="close-newsletter" class="close-checkbox">
+        <div class="newsletter-container">
+            <label for="close-newsletter" class="close-btn">&times;</label>
+            <h2>Stay Updated on Discounts!</h2>
+            <p>Subscribe to get the latest offers.</p>
+            <form class="newsletter-form" action="submit-newsletter.php" method="POST">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Categories Section -->
+    <section class="categories">
+        <h2>Categories</h2>
+        <div class="category-grid">
+            <div class="category-item">
+                <img src="images/iphone-mockup.webp" alt="iPhone Cases">
+                <h3>iPhone Cases</h3>
+                <a href="products.html#iphone" class="explore-btn">Explore</a>
+            </div>
+            <div class="category-item">
+                <img src="images/samsung-mockup.webp" alt="Samsung Cases">
+                <h3>Samsung Cases</h3>
+                <a href="products.html#samsung" class="explore-btn">Explore</a>
+            </div>
+            <div class="category-item">
+                <img src="images/huawei-mockup.webp" alt="Huawei Cases">
+                <h3>Huawei Cases</h3>
+                <a href="products.html#huawei" class="explore-btn">Explore</a>
+            </div>            
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-menu">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-icon-container">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 Case World. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
