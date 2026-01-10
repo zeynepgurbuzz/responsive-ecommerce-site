@@ -3,7 +3,7 @@
 **Case World** is a vibrant and fully responsive e-commerce website design customized for selling phone cases. This project focuses on modern UI/UX principles, showcasing advanced CSS techniques, product grids, and visual storytelling.
 
 ## 🚀 Live Demo
-[Click here to visit Case World]((https://zeynepgurbuzz.github.io/responsive-ecommerce-site/))
+[Click here to visit Case World](https://zeynepgurbuzz.github.io/responsive-ecommerce-site/)
 
 ## ✨ Key Features
 
